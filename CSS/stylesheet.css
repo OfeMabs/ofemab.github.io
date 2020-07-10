@@ -14,12 +14,20 @@ h1 {
 }
 
 h2 {
-  font-size: 2rem;
+  font-size: 3.5rem;
   text-align: center;
 }
 
 h3 {
-  font-size: 1.5rem;
+  font-size: 2.5rem;
+}
+h4 {
+    font-size: 1.2rem;
+    color:white;
+    padding: 7% ,0;
+}
+h5 {
+  font-size: 2rem;
 }
 
 p {
@@ -79,12 +87,22 @@ em {
 
 /* Title Image */
 .title-image {
-  width: 60%;
+  width: 89%;
   transform: rotate(0deg);
   position: absolute;
-  right: 31%;
+  right: 0%;
   bottom:5%
 }
+.title-image {
+  width: 80%;
+  height: 80;
+  transform: rotate(0deg);
+  position: absolute;
+  right: 60%;
+  bottom:5%
+}
+
+
 /* Countdown Timer */
 
 
@@ -117,6 +135,8 @@ em {
   text-align: center;
   background-color:#b973ee ;
   color: white;
+  width: 100%;
+  height: 100%;
 }
 
 .memory-wall-text {
@@ -132,18 +152,6 @@ em {
 
 .carousel-item {
   padding: 7% 15%;
-}
-
-/* Press section */
-#press {
-  background-color: #b973ee;
-  text-align: center;
-  padding-bottom: 3%;
-}
-
-.press-logo {
-  width: 15%;
-  margin: 20px 20px 50px;
 }
 
 /* Pricing Section */
@@ -169,7 +177,7 @@ em {
   text-align: center;
 }
 
-.cta-tex {
+.cta-text {
   font-family: 'Montserrat';
   font-size: 2.5rem;
   font-weight: 700;
@@ -177,6 +185,23 @@ em {
   line-height: 1.5;
   text-align: center;
 }
+.cta-button{
+  padding: 20%  15%;
+}
+
+/* <!-- Call to Action Form --> */
+ #message-form{
+     font-family: 'Montserrat';
+ }
+.form-header {
+  background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(43,0,98,1) 0%, rgba(138,24,224,1) 0%, rgba(0,0,0,1) 0%, rgba(0,255,202,1) 0%, rgba(0,134,214,1) 100%, rgba(179,0,255,1) 100%);
+color: white;
+font-size: 2rem;
+  font-family: 'Montserrat';
+}
+
+
 
 /* Footer Section */
 #footer {
@@ -199,4 +224,8 @@ em {
     position: static;
     transform: rotate(0);
   }
+
+
+
+}
 }
